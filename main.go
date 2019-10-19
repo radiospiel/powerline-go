@@ -109,6 +109,7 @@ var modules = map[string]func(*powerline){
 	"aws":                 segmentAWS,
 	"battery":             segmentBattery,
 	"cwd":                 segmentCwd,
+	"cwdlite":             segmentCwdLite,
 	"docker":              segmentDocker,
 	"dotenv":              segmentDotEnv,
 	"duration":            segmentDuration,
